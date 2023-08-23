@@ -13,4 +13,12 @@
         <RepositoryUrl>https://github.com/PandaTechAM/be-lib-startup-environment-check.git</RepositoryUrl>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Include="..\Logo.jpg">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>Logo.jpg</Link>
+      </None>
+    </ItemGroup>
+
 </Project>
