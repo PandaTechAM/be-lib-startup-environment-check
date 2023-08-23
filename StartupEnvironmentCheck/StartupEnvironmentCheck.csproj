@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>PandaTech.StartupEnvironmentCheck</PackageId>
+        <Authors>PandaTech</Authors>
+        <Title>Pandatech Startup Environment Check</Title>
+        <Description>Pandatech.StartupEnvironmentCheck is a library designed to validate essential environment variables during application startup. By checking required configurations, it prevents unexpected behaviors and ensures smooth initialization. Easily integrate this check into your .NET applications to enhance robustness and maintainability.</Description>
+        <PackageIcon>Logo.jpg</PackageIcon>
+        <PackageTags>EnvironmentVariables, Configuration, Startup, Validation, Pandatech, DotNet, ApplicationInitialization</PackageTags>
+        <RepositoryUrl>https://github.com/PandaTechAM/be-lib-startup-environment-check.git</RepositoryUrl>
+    </PropertyGroup>
+
+</Project>
