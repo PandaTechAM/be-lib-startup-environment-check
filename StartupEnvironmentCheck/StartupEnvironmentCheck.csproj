@@ -11,6 +11,8 @@
         <PackageIcon>Logo.jpg</PackageIcon>
         <PackageTags>EnvironmentVariables, Configuration, Startup, Validation, Pandatech, DotNet, ApplicationInitialization</PackageTags>
         <RepositoryUrl>https://github.com/PandaTechAM/be-lib-startup-environment-check.git</RepositoryUrl>
+        <Version>1.0.1</Version>
+        <PackageReleaseNotes>Exception message refactored to become more visible and readable.</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
