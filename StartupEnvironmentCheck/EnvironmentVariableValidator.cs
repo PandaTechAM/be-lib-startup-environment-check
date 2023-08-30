@@ -4,14 +4,14 @@ public class EnvironmentVariableValidator
 {
     public static void ValidateEnvironmentVariables(IEnumerable<string> envNames)
     {
-        var missingEnvNames = (from envVariable in envNames
+        var invalidEnvNames = (from envVariable in envNames
             let env = Environment.GetEnvironmentVariable(envVariable)
-            where env is null
+            where string.IsNullOrWhiteSpace(env)
             select envVariable).ToList();
 
-        if (missingEnvNames.Count > 0)
+        if (invalidEnvNames.Count > 0)
         {
-            throw new MissingEnvironmentVariablesException(missingEnvNames);
+            throw new MissingEnvironmentVariablesException(invalidEnvNames);
         }
     }
 }
