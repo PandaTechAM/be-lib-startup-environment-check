@@ -9,7 +9,7 @@
         <Title>Pandatech Startup Environment Check</Title>
         <Description>Pandatech.StartupEnvironmentCheck is a library designed to validate essential environment variables during application startup. By checking required configurations, it prevents unexpected behaviors and ensures smooth initialization. Easily integrate this check into your .NET applications to enhance robustness and maintainability.</Description>
         <PackageIcon>pandatech.png</PackageIcon>
-        <PackageReadmeFile>../Readme.md</PackageReadmeFile>
+        <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <PackageTags>EnvironmentVariables, Configuration, Startup, Validation, Pandatech, DotNet, ApplicationInitialization</PackageTags>
         <RepositoryUrl>https://github.com/PandaTechAM/be-lib-startup-environment-check.git</RepositoryUrl>
         <Version>1.0.5</Version>
@@ -22,10 +22,7 @@
             <Pack>True</Pack>
             <PackagePath></PackagePath>
         </None>
-        <None Update="Readme.md">
-            <Pack>True</Pack>
-            <PackagePath>../</PackagePath>
-        </None>
+        <None Include="..\Readme.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
 </Project>
