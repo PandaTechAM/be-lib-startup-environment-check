@@ -12,8 +12,8 @@
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <PackageTags>EnvironmentVariables, Configuration, Startup, Validation, Pandatech, DotNet, ApplicationInitialization</PackageTags>
         <RepositoryUrl>https://github.com/PandaTechAM/be-lib-startup-environment-check.git</RepositoryUrl>
-        <Version>1.0.4</Version>
-        <PackageReleaseNotes>Exception message refactored to become more visible and readable.</PackageReleaseNotes>
+        <Version>1.0.5</Version>
+        <PackageReleaseNotes>test</PackageReleaseNotes>
     </PropertyGroup>
 
 
@@ -24,7 +24,7 @@
         </None>
         <None Update="Readme.md">
             <Pack>True</Pack>
-            <PackagePath>\</PackagePath>
+            <PackagePath>..\</PackagePath>
         </None>
     </ItemGroup>
 
