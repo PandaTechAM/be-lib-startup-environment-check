@@ -24,7 +24,7 @@
         </None>
         <None Update="Readme.md">
             <Pack>True</Pack>
-            <PackagePath>../Readme.md</PackagePath>
+            <PackagePath>../</PackagePath>
         </None>
     </ItemGroup>
 
